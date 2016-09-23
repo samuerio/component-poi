@@ -1,6 +1,6 @@
 # Poi-Component
 
-简单好用的「类」&&「实例集」同Excel映射的Poi组件
+简单好用的、实现了「类」&&「实例集」同Excel映射的Poi组件
 
 # Features
 
@@ -15,7 +15,7 @@
 
 以字段标注的方式提供相关Excel的配置：
 
-`ExcelMapping`
+**ExcelMapping**
 
 ```java
 @Retention(RetentionPolicy.RUNTIME)
@@ -54,7 +54,7 @@ eg.
 这个字段输出到Excel时，显示为“姓名”，并且位于第一列。
 
 
-`ValidationRule`
+**ValidationRule**
 
 ```
 @Retention(RetentionPolicy.RUNTIME)
@@ -92,7 +92,7 @@ eg.
 导入Excel时,电子邮箱值被要求为必填，并且需要进行Email校验。
 
 
-`ValueTranslator`
+**ValueTranslator**
 
 ```java
 @Retention(RetentionPolicy.RUNTIME)
